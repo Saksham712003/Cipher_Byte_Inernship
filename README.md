@@ -44,8 +44,6 @@ The model achieved an accuracy of approximately **87.4%** on the test set.
 1. Clone the repository.
 2. Install the required dependencies from `requirements.txt`.
 3. Run the Jupyter Notebook or Python script to train the model and evaluate its performance.
-
-```bash
 git clone <repository_url>
 cd <repository_folder>
 pip install -r requirements.txt
@@ -58,12 +56,12 @@ TensorFlow
 NumPy
 Matplotlib
 
-# Task 2: Creating a Chatbot using Transformers with TensorFlow
+## Task 2: Creating a Chatbot using Transformers with TensorFlow
 
-Overview
+# Overview
 This project involves creating a simple chatbot using a Transformer model implemented with TensorFlow. The chatbot is trained on a conversational dataset and can respond to user input in a conversational manner.
 
-Model Architecture
+# Model Architecture
 
 The chatbot uses a Transformer architecture, which includes:
 Embedding layers
@@ -71,13 +69,13 @@ Multi-head attention mechanisms
 Positional encoding
 Encoder and decoder layers
 
-Dataset
+# Dataset
 The dataset used for training the chatbot is a simple conversational dataset, which consists of pairs of questions and answers.
 
-Results
+# Results
 The chatbot is capable of responding to basic conversational inputs with a reasonable degree of accuracy.
 
-How to Run
+# How to Run
 Clone the repository.
 Install the required dependencies from requirements.txt.
 Run the Jupyter Notebook or Python script to train the chatbot and start interacting with it.
@@ -86,16 +84,18 @@ git clone <repository_url>
 cd <repository_folder>
 pip install -r requirements.txt
 python chatbot_transformer.py
-Dependencies
+
+# Dependencies
 Python 3.x
 TensorFlow
 NumPy
 NLTK (optional, for text preprocessing)
 TensorFlow Datasets
-Conclusion
+
+# Conclusion
 These tasks provided valuable hands-on experience with TensorFlow for image classification and natural language processing. The skills gained during this internship will be instrumental in future projects.
 
-License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ### Steps to Follow:
